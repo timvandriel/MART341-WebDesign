@@ -1,0 +1,1 @@
+This is my assignment 6. I am practicing new HTML elements I learned this week.
