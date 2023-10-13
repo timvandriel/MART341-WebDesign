@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en-US">
 <head>
     <title>
         Golf Courses Near Missoula, MT
@@ -16,14 +17,13 @@
     <link rel="stylesheet" href="./css/style.css">
     <!--Adjust style of page-->
     <style>
-      body {background-color:rgb(6, 90, 6)}
-      body {color:beige}
-      h1 {color: rgb(166, 255, 0)}
-      h2 {color: aqua}
-      table, th, td {
+        body {background-color:rgb(6, 90, 6)}
+        body {color:beige}
+        h1 {color: rgb(166, 255, 0)}
+        h2 {color: aqua}
+        table, th, td {
         border: 1px solid black;
-        border-collapse: collapse;
-      }
+        border-collapse: collapse;}
     </style>
 </head>
 
@@ -47,6 +47,7 @@
                 <td>4.3/5</td>
                 <td><a href="tel:406-721-0222" target="_blank" rel="noopener">(406) 721-0222</a></td>
                 <td><a href="https://www.canyonrivergolfclub.com/">Canyon River Golf Club</a></td>
+            </tr>
         </table>
     </p>
     <h2>King Ranch Golf Course</h2>
@@ -66,39 +67,41 @@
                 <td>4.1/5</td>
                 <td><a href="tel:406-626-4000" target="_blank" rel="noopener">(406) 626-4000</a></td>
                 <td><a href="https://www.kingranchmt.com/">King Ranch Golf Course</a></td>
+            </tr>
         </table>
     </p>
     <h2>Highlands Golf Course</h2>
     <img src="./images/highlands.jpeg" alt="Highlands Golf Course" width="300" height="175">
-    <table style="width:100%">
-        <tr>
-            <th scope="col">Location</th>
-            <th scope="col">Price</th>
-            <th scope="col">Rating</th>
-            <th scope="col">Phone Number</th>
-            <th scope="col">Website</th>
-        </tr>
-        <tr>
-            <td><address>102 Ben Hogan Dr, Missoula, MT 59803</address></td>
-            <td>$30</td>
-            <td>4.3/5</td>
-            <td><a href="tel:406-728-7360" target="_blank" rel="noopener">(406) 728-7360</a></td>
-            <td><a href="https://www.thekeeprestaurant.com/the-highlands">Highlands Golf Course</a></td>
-    </table>
     <p>
-        <!--Form for user input-->
-        <form method="post" action="index.html">
-            Do you enjoy golfing?
-            <input type="radio" name="yes_no" id="yes_no" value="yes">Yes
-            <input type="radio" name="yes_no" id="yes_no" value="no">No <br>
-            If yes, what's your name and handicap?
-            <input type="text" name="name_handicap" id="name_handicap" placeholder="John Doe 10">
-            <br>
-            Are there any other courses you would like to see added to this list?
-            <textarea name="additional_courses" id="additional_courses" cols="25" rows="5"></textarea>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
+        <table style="width:100%">
+            <tr>
+                <th scope="col">Location</th>
+                <th scope="col">Price</th>
+                <th scope="col">Rating</th>
+                <th scope="col">Phone Number</th>
+                <th scope="col">Website</th>
+            </tr>
+            <tr>
+                <td><address>102 Ben Hogan Dr, Missoula, MT 59803</address></td>
+                <td>$30</td>
+                <td>4.3/5</td>
+                <td><a href="tel:406-728-7360" target="_blank" rel="noopener">(406) 728-7360</a></td>
+                <td><a href="https://www.thekeeprestaurant.com/the-highlands">Highlands Golf Course</a></td>
+            </tr>
+        </table>
     </p>
-
+    <!--Form for user input-->
+    <form method="post" action="index.html">
+        Do you enjoy golfing?
+        <input type="radio" name="yes_no" id="yes_no" value="yes">Yes
+        <input type="radio" name="yes_no" id="yes_no" value="no">No <br>
+        If yes, what's your name and handicap?
+        <input type="text" name="name_handicap" id="name_handicap" placeholder="John Doe 10">
+        <br>
+        Are there any other courses you would like to see added to this list?
+        <textarea name="additional_courses" id="additional_courses" cols="25" rows="5"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
+</html>
