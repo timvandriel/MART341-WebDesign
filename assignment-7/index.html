@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Golf Courses Near Missoula, MT
+    </title>
+    <!--Character set used-->
+    <meta charset="UTF-8">
+    <!--Description of page-->
+    <meta name="description" content="Golf Courses around Missoula">
+    <!--Author's Name-->
+    <meta name="author" content="Tim Van Driel">
+    <!--Adjust page scale-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Title of page-->
+    <title>Golf Courses Near Missoula, MT</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Adjust style of page-->
+    <style>
+      body {background-color:rgb(6, 90, 6)}
+      body {color:beige}
+      h1 {color: rgb(166, 255, 0)}
+      h2 {color: aqua}
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+</head>
+
+<body>
+    <!--Body of page-->
+    <h1>The Best Golf Courses Near Missoula, MT</h1>
+    <h2>Canyon River</h2>
+    <img src="./images/canyon_river.jpeg" alt="Canyon River Golf Course" width="300" height="175">
+    <p>
+        <table style="width:100%">
+            <tr>
+                <th scope="col">Location</th>
+                <th scope="col">Price</th>
+                <th scope="col">Rating</th>
+                <th scope="col">Phone Number</th>
+                <th scope="col">Website</th>
+            </tr>
+            <tr>
+                <td><address>1268 Bandmann Trail, Missoula, MT 59802</address></td>
+                <td>$50</td>
+                <td>4.3/5</td>
+                <td><a href="tel:406-721-0222" target="_blank" rel="noopener">(406) 721-0222</a></td>
+                <td><a href="https://www.canyonrivergolfclub.com/">Canyon River Golf Club</a></td>
+        </table>
+    </p>
+    <h2>King Ranch Golf Course</h2>
+    <img src="./images/king_ranch.jpeg" alt="King Ranch Golf Course" width="300" height="175">
+    <p>
+        <table style="width:100%">
+            <tr>
+                <th scope="col">Location</th>
+                <th scope="col">Price</th>
+                <th scope="col">Rating</th>
+                <th scope="col">Phone Number</th>
+                <th scope="col">Website</th>
+            </tr>
+            <tr>
+                <td><address>17775 Mullan Rd, Frenchtown, MT 59834</address></td>
+                <td>$30</td>
+                <td>4.1/5</td>
+                <td><a href="tel:406-626-4000" target="_blank" rel="noopener">(406) 626-4000</a></td>
+                <td><a href="https://www.kingranchmt.com/">King Ranch Golf Course</a></td>
+        </table>
+    </p>
+    <h2>Highlands Golf Course</h2>
+    <img src="./images/highlands.jpeg" alt="Highlands Golf Course" width="300" height="175">
+    <table style="width:100%">
+        <tr>
+            <th scope="col">Location</th>
+            <th scope="col">Price</th>
+            <th scope="col">Rating</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col">Website</th>
+        </tr>
+        <tr>
+            <td><address>102 Ben Hogan Dr, Missoula, MT 59803</address></td>
+            <td>$30</td>
+            <td>4.3/5</td>
+            <td><a href="tel:406-728-7360" target="_blank" rel="noopener">(406) 728-7360</a></td>
+            <td><a href="https://www.thekeeprestaurant.com/the-highlands">Highlands Golf Course</a></td>
+    </table>
+    <p>
+        <!--Form for user input-->
+        <form method="post" action="index.html">
+            Do you enjoy golfing?
+            <input type="radio" name="yes_no" id="yes_no" value="yes">Yes
+            <input type="radio" name="yes_no" id="yes_no" value="no">No <br>
+            If yes, what's your name and handicap?
+            <input type="text" name="name_handicap" id="name_handicap" placeholder="John Doe 10">
+            <br>
+            Are there any other courses you would like to see added to this list?
+            <textarea name="additional_courses" id="additional_courses" cols="25" rows="5"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </p>
+
+</body>
