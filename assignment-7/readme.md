@@ -1,1 +1,1 @@
-This is my assignment 7 for MART341. A website for all the golf courses around Missoula, MT.
+This is my assignment 7 for MART341. A website containing my favorite golf courses around Missoula, MT.
