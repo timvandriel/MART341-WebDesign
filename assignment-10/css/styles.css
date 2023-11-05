@@ -4,27 +4,27 @@ background-color: #30292F;
 color: #F5F9E9;
 /* change font of entire page */
 font-family: 'Roboto', sans-serif;
-text-align: center;
-}
+/* center text */
+text-align: center;}
 
 img {
-/* change image sizes */
-    width: 50%;
-margin:auto}
+margin:auto;
+/* add padding around image */
+padding: 10px}
 
 #mainheader {
 /* change background color of header */
-    color: #BA3B46;
-    /* change position of header */
+color: #BA3B46;
+/* change position of header */
 position:relative;
 right: 30px;
 top: 10px;
 opacity: 80%;
 }
-.main-container {
-    /* change background color of main container */
-    background-color:#0E6BA8;
-    /* draw a border */
+.first-container {
+/* change background color of main container */
+background-color:#0E6BA8;
+/* draw a border */
 border-color:#898952;
 border-style: solid;
 border-width: 5px;
@@ -32,4 +32,17 @@ padding: 15px;
 margin: auto;
 width: 85%;
 }
-h2 {opacity:60%}
+h2 {opacity:90%
+}
+.secondary-container {
+color: rgb(128, 0, 32);
+background-color: #F5F9E9;
+border-color: rgb(128, 0, 32);
+border-style: solid;
+border-width: 5px;
+padding: 15px;
+margin: auto;
+width: 85%;}
+#endimage {bottom:0px;}
+    
+
