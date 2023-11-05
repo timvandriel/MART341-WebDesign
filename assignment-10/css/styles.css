@@ -35,14 +35,17 @@ width: 85%;
 h2 {opacity:90%
 }
 .secondary-container {
+/* change text color to burgundy */
 color: rgb(128, 0, 32);
+/* change background color of secondary container */
 background-color: #F5F9E9;
+/* draw a border */
 border-color: rgb(128, 0, 32);
 border-style: solid;
 border-width: 5px;
 padding: 15px;
 margin: auto;
 width: 85%;}
-#endimage {bottom:0px;}
+
     
 
