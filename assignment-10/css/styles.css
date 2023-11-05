@@ -1,0 +1,35 @@
+body {
+/* change background color and font of entire page */
+background-color: #30292F;
+color: #F5F9E9;
+/* change font of entire page */
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+
+img {
+/* change image sizes */
+    width: 50%;
+margin:auto}
+
+#mainheader {
+/* change background color of header */
+    color: #BA3B46;
+    /* change position of header */
+position:relative;
+right: 30px;
+top: 10px;
+opacity: 80%;
+}
+.main-container {
+    /* change background color of main container */
+    background-color:#0E6BA8;
+    /* draw a border */
+border-color:#898952;
+border-style: solid;
+border-width: 5px;
+padding: 15px;
+margin: auto;
+width: 85%;
+}
+h2 {opacity:60%}
