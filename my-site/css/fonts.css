@@ -1,0 +1,31 @@
+/* Completed for the “regular” font: */
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* What is the weight for the “bold” version?*/
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Bold.ttf') format('opentype');
+    font-weight: ;
+    font-style: normal;
+}
+
+/* What is the style for the “italic” version? */
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Italic.ttf') format('opentype');
+    font-weight: normal;
+    font-style: ;
+}
+
+/* Add the URL, weight, and style for the “bold-italic” version: */
+@font-face {
+    font-family: 'Arvo';
+    src: url('') format('opentype');
+    font-weight: ;
+    font-style: ;
+}
