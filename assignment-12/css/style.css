@@ -87,7 +87,7 @@ h1, h2 {
     background-color:#132A13;
     padding: 1em .5em;
     position: relative;
-    max-height: 300px;
+    min-height: 300px;
     overflow: scroll;
 }
 
@@ -96,7 +96,8 @@ h1, h2 {
     border-style: inset;
     border-color:#90A955;
     border-radius: 10px;
-    min-width: 300px;
+    max-width: 300px;
+    max-height: 100px;
     overflow: scroll;
     margin: 1em;
     background-color:#132A13;
