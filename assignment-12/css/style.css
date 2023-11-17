@@ -96,8 +96,7 @@ h1, h2 {
     border-style: inset;
     border-color:#90A955;
     border-radius: 10px;
-    max-width: 300px;
-    max-height: 100px;
+    min-width: 300px;
     overflow: scroll;
     margin: 1em;
     background-color:#132A13;
