@@ -87,7 +87,7 @@ h1, h2 {
     background-color:#132A13;
     padding: 1em .5em;
     position: relative;
-    min-height: 300px;
+    min-height: 100px;
     overflow: scroll;
 }
 
