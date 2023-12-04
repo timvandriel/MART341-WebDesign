@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Company Website">
+        <meta name="author" content="Tim Van Driel">
+        <meta name="keywords" content="company website">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Client's Site</title>
+        <link type="text/css" rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <ul class="menu-bar col-1">
+            <li><a class="active" href="./index.html">Home</a></li>
+            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+            <li class="dropdown"><a href="./pages/services.html" class="dropbttn">Services</a>
+                <div class="dropdown-content">
+                    <a href="#">Landscaping Design</a>
+                    <a href="#">Planting</a>
+                    <a href="#">Patios</a>
+                    <a href="#">Retaining Walls</a>
+                    <a href="#">Water Features</a>
+                    <a href="#">Outdoor Lighting</a>
+                    <a href="#">And more...</a>
+                </div>
+            </li>
+        </ul>
+        <header>
+            <h1 class="col-2">Landscapes R Us</h1>
+        </header>
+        <div class="main-container col-3">
+            <h2>Welcome to Landscapes R Us</h2>
+            <img src="./images/lawn.jpeg" alt="lawn" width="50%">
+            <p>At Landscapes R Us, we transform outdoor spaces into breathtaking landscapes that reflect the beauty of 
+                nature and enhance the appeal of your property. With a passion for craftsmanship and a commitment to 
+                excellence, our team of skilled professionals is dedicated to delivering top-notch landscaping services
+                tailored to meet your unique needs.</p>
+            <h2>Why choose us?</h2>
+            <ul>
+                <li><em>Expertise:</em> With years of experience, our team possesses the knowledge and skills to handle projects of any size or complexity.</li>
+                <li><em>Customer-Centric Approach:</em> Your satisfaction is our priority. We collaborate closely with clients to understand their preferences and turn their dreams into reality.</li>
+                <li><em>Quality Materials:</em> We source high-quality materials to ensure the longevity and sustainability of every project we undertake.</li>
+                <li><em>Timely Executtion</em> We pride ourselves on completing projects on time and within budget, without compromising on quality.</li>
+            </ul>
+        </div>
+        <div class="form col-4">
+            <h2>Get a free quote</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="phone">Phone:</label>
+                <br>
+                <input type="tel" id="phone" name="phone" required>
+                <br>
+                <label for="message">Message:</label>
+                <br>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <button type="submit">Get a Free Quote</button>
+            </form>
+        </div>
+
+    </body>
+</html>

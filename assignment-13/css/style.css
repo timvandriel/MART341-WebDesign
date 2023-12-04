@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;;
+}
+h1, h2, h3 {
+    font-family: 'Barlow Condensed', sans-serif;}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4em;
+    background-color: #F4F1DE;
+    color: #3D405B;
+    position: relative;
+    text-align: justify;
+}
+
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 25%}
+    .col-s-2 {width: 50%;}
+    .col-s-3 {width: 75%;}
+    .col-s-4 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 25%;}
+    .col-2 {width: 50%;}
+    .col-3 {width: 75%;}
+    .col-4 {width: 100%;}
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+/* Apply a fixed position to the menu bar */
+.menu-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1E6E41;
+  }
+  
+  /* Style the menu items */
+  .menu-bar li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  /* Style the links */
+  .menu-bar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #D9BF77;
+  }
+  .menu-bar a:hover {
+    color: #F4F1DE;
+  }
+  
+  /* Apply styles to the active link */
+  .menu-bar a.active {
+    font-weight: bold;
+    color: lightgreen;
+  }
+  
+  /* Style the dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Style the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #1E6E41;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Show the dropdown content on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Style the dropdown links */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #8C6239;
+  }
+
+.main-container {
+    margin-top: 6em;
+    padding: 0 20px;
+    float: right;
+    position: relative;
+    border: 2px solid #8C6239;
+    width: 55%;
+}
+
+.secondary-container {
+    margin-top: 6em;
+    padding: 0 20px;
+    position: relative;
+    border: 2px solid #8C6239;
+
+}
+
+.form {
+    float: left;
+    position: fixed;
+    margin-top: 6em;
+    width: 20%;
+
+}
+
